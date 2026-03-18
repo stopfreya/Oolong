@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f1e8;
+  color: #222;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #efe6da;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-button {
+  padding: 10px 16px;
+  background: black;
+  color: white;
+  border-radius: 20px;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.this {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  min-height: 80vh;
+}
+
+.this-text {
+  width: 45%;
+}
+
+.this-text h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.this-text p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.main-button {
+  padding: 14px 24px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.this-image-box {
+  width: 45%;
+}
+
+.propaganda-box {
+  height: 350px;
+  background-color: #ddd;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-header {
+  padding: 40px;
+  text-align: center;
+}
+
+.menu-grid,
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 40px 40px 40px;
+}
+
+.menu-card,
+.product-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.menu-card {
+  cursor: pointer;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  height: 180px;
+  background: #ddd;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}

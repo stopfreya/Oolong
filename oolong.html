@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--IT WORKSSS-->
   <title>Oolong</title>
-
+  <link rel="stylesheet" href="oolong.css">
 </head>
+
 <body>
-  
+
+  <header class="top-bar">
+    <div class="brand" onclick="showSection('home')">Oolong Tea House</div>
+    <nav>
+      <a href="#" class="nav-button" onclick="showSection('menu')">Menu</a>
+      <a href="#" class="nav-button">Contact</a>
+      <a href="#" class="nav-button">Locations</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page active this">
+      <section class="this-text">
+        <h1>Oolong</h1>
+        <p>lwk boba and tea and like soup plus like sushi srta tho kinda mid yeah fr</p>
+        <button class="main-button" onclick="showSection('menu')">See Menu</button>
+      </section>
+
+      <section class="this-image-box">
+        <div class="propaganda-box">bild</div>
+      </section>
+    </section>
+
+
 </body>
 </html>

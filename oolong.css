@@ -74,17 +74,11 @@ nav a {
   cursor: pointer;
 }
 
-.this-image-box {
-  width: 45%;
-}
-
-.propaganda-box {
-  height: 350px;
-  background-color: #ddd;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.this-image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 113px;
 }
 
 .menu-header {

@@ -11,6 +11,9 @@ body {
   align-items: center;
   padding: 20px 40px;
   background-color: #efe6da;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .brand {

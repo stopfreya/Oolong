@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--IT WORKSSS-->
   <title>Oolong</title>
   <link rel="stylesheet" href="oolong.css">
-  <script src="script.js"></script>
 </head>
 
 <body>
@@ -13,7 +12,7 @@
   <header class="top-bar">
     <div class="brand" onclick="showSection('home')">Oolong Tea House</div>
     <nav>
-      <a href="#" class="nav-button" onclick="showSection('menu')">Menu</a>
+      <a href="#" class="nav-button" onclick="event.preventDefault(); showSection('menu')">Menu</a>
       <a href="#" class="nav-button">Contact</a>
       <a href="#" class="nav-button">Locations</a>
     </nav>
@@ -32,6 +31,8 @@
       </section>
     </section>
 
+ 
 
+<script src="oolong.js"></script>
 </body>
 </html>

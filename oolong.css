@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f7f1e8;
+  background-color: #f9cfaa;
   color: #222;
 }
 
@@ -10,7 +10,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
-  background-color: #efe6da;
+  background-color: #f08989;
   position: sticky;
   top: 0;
   z-index: 1000;

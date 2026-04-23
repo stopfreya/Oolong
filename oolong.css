@@ -45,14 +45,16 @@ nav a {
 
 .this {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 60px 40px;
   min-height: 80vh;
 }
 
 .this-text {
-  width: 45%;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 .this-text h1 {

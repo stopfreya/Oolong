@@ -1,8 +1,15 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Cambo', sans-serif;
   background-color: #f9cfaa;
-  color: #222;
+  color: #4e1818;
+}
+
+h1, h2, h3 {
+  font-weight: 1600;
+  font-family: "Chango", sans-serif;
+  color: rgba(161, 122, 97);
+  -webkit-text-stroke: 1px white;
 }
 
 .top-bar {
@@ -14,6 +21,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+
 }
 
 .brand {
@@ -158,6 +166,28 @@ nav a {
   border-radius: 20px;
 }
 
+
+/* Contact us________________________________________________ */
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.contact-links a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+
+.contact-links a:hover {
+  color: #cea15f; 
+}
+
  /* MENU _________________________________________________ */ 
  
 .page {
@@ -171,11 +201,16 @@ nav a {
 .menu-title {
   text-align: center;
   padding: 50px 20px 30px 20px;
+ 
 }
 
+
 .menu-title h2 {
-  font-size: 42px;
+  font-size: 80px;
   margin: 0;
+  color: rgba(161, 122, 97);
+  -webkit-text-stroke: 1px white;
+  font-family: "Chango", sans-serif;
 }
 
 .category-grid {

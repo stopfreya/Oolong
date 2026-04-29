@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Oolong</title>
+  <link rel="stylesheet" href="oolong.css">
+</head>
+
+<body>
+
+<header class="top-bar">
+  <div class="brand" onclick="showSection('menu')">
+    Oolong Tea House
+  </div>
+  <nav>
+    <a href="menu.html" class="nav-button">Menu</a>
+    <a href="hours.html" class="nav-button">Opening Hours</a>
+    <a href="contact.html" class="nav-button">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- MENU                       -->
+
+<section id="menu" class="menu-page page active"> 
+  <div class="menu-title">
+    <h2>Menu</h2>
+  </div>
+
+  <div class="category-grid">
+    <div class="category-card" onclick="showSection('seasonal')">
+      <img src="images/seasonal.png" alt="Seasonal" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('bubbletea')">
+      <img src="images/bubbletea.png" alt="Bubble Tea" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('puddingtea')">
+      <img src="images/puddingtea.png" alt="Pudding Tea" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('fruittea')">
+      <img src="images/fruittea.png" alt="Fruit Tea" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('specialtydrinks')">
+      <img src="images/specialitydrinks.png" alt="Specialty Drinks" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('cheesetea')">
+      <img src="images/cheesetea.png" alt="Cheese Tea" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('coffeedrink')">
+      <img src="images/coffeedrink.png" alt="Coffee Drink" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('dessertlabs')">
+      <img src="images/dessertlabs.png" alt="Dessert by The Dessert Labs" class="category-img">
+    </div>
+
+    <div class="category-card" onclick="showSection('gyunami')">
+      <img src="images/food.png" alt="Food by Gyunami" class="category-img">
+    </div>
+  </div>
+</section>
+
+<section id="seasonal" class="page">
+  <div class="menu-title">
+    <h2>Seasonal</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card">
+      <img src="images/peachjasmine.jpeg" class="product-img" alt="item">
+      <div class="product-info">
+        <h3>Peach Jasmine Delight</h3>
+        <p>A refreshing blend of fragrant jasmine green tea infused with sweet white peach juice and luscious peach purée. Layers of delicate floral notes and juicy fruitiness come together in perfect harmony, finished with Popping Boba that bursts with every sip. <p>Popping Boba is included. </p></p>
+        <span class="price">64 kr</span>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/rosepuer.jpeg" class="product-img" alt="item">
+      <div class="product-info">
+        <h3>Rose Pu'er Milk Tea</h3>
+        <p>En sammetslen blandning av lagrad pu-erh och mjölk, lyft av naturlig rosdoft. Djup, rund smak med en blommig avslutning. Boba/toppings ingår inte.</p>
+        <span class="price"> 49 kr</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="bubbletea" class="page">
+  <div class="menu-title">
+    <h2>Bubble Tea</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/zangzangcha.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Zang Zang Cha</h3><p>Rik och sammetslen mjölk virvlad med brunt sockersirap, lagrad över mjuka boba. Rör om för att se de karakteristiska “Zang Zang” tigerränderna.</p><span class="price">59 kr</span></div></div>
+    <div class="product-card"><img src="images/pearlmilk.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Pearl Milk Tea</h3><p>The timeless favorite. Smooth black tea blended with creamy milk, lightly sweetened, and served with perfectly bouncy tapioca pearls. Comforting, nostalgic, and satisfying in every sip.</p><span class="price">59 kr</span></div></div>
+    <div class="product-card"><img src="images/jasminepearl.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Jasmine Pearl Milk Tea</h3><p>A fragrant twist on the classic. Delicate jasmine tea infused with creamy milk, lightly sweetened, and paired with perfectly bouncy tapioca pearls. Light, aromatic, and refreshingly smooth in every sip.</p><span class="price">59 kr</span></div></div>
+    <div class="product-card"><img src="images/matchabubble.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Matcha Bubble</h3><p>Premium Japanese matcha blended with creamy milk and just the right sweetness, served with bouncy tapioca pearls. Bold, smooth, and refreshingly green — a must for matcha lovers.</p><span class="price">64 kr</span></div></div>
+  </div>
+</section>
+<section id="puddingtea" class="page">
+  <div class="menu-title">
+    <h2>Pudding Tea</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/milkpudding.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Pudding Milk Tea</h3><span class="price">69 kr</span></div></div>
+    <div class="product-card"><img src="images/matchapudding.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Pudding Matcha</h3><span class="price">69 kr</span></div></div>
+    <div class="product-card"><img src="images/zangzangpudding.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Pudding Zang Zang Cha</h3><span class="price">69 kr</span></div></div>
+  </div>
+</section>
+
+<section id="fruittea" class="page">
+  <div class="menu-title">
+    <h2>Fruit Tea</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/lemontea.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Lemon Tea</h3><p>Freshly brewed black tea shaken with real lemon juice for a tangy, refreshing kick. Light, citrusy, and the ultimate thirst-quencher.</p><span class="price">64 kr</span></div></div>
+    <div class="product-card"><img src="images/mangotea.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Mango Tea</h3><p>Fragrant black tea infused with sweet, sun-ripened mango. Smooth, fruity, and bursting with tropical vibes in every sip.</p><span class="price">64 kr</span></div></div>
+    <div class="product-card"><img src="images/strawberrytea.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Strawberry Tea</h3><p>Black tea blended with real strawberry for a naturally sweet and refreshing drink. Bright, juicy, and perfectly balanced.</p><span class="price">64 kr</span></div></div>
+    <div class="product-card"><img src="images/mangopassion.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Mango Passion Tea</h3><p>A vibrant mix of mango and passion fruit with bold black tea. Tangy, sweet, and packed with tropical flavor — sunshine in a cup.</p><span class="price">69 kr</span></div></div>
+  </div>
+</section>
+
+<section id="specialtydrinks" class="page">
+  <div class="menu-title">
+    <h2>Specialty Drinks</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/strawberrymilk.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Strawberry Milk</h3><p>Fresh strawberry purée blended with cold milk and chewy tapioca pearls. Like strawberries and cream in a cup — light, sweet, and caffeine-free.</p><span class="price">69 kr</span></div></div>
+    <div class="product-card"><img src="images/mangomilk.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Mango Milk</h3><p>Ripe mango blended with creamy milk and tapioca pearls. A rich, tropical treat that's refreshingly sweet and naturally caffeine-free.</p><span class="price">69 kr</span></div></div>
+    <div class="product-card"><img src="images/strawberrymatcha.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Strawberry Matcha</h3><p>Premium caffeine-free matcha* layered over fresh strawberry milk with bouncy tapioca pearls. Earthy, fruity, and full of texture.</p><span class="price">74 kr</span></div></div>
+    <div class="product-card"><img src="images/mangomatcha.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Mango Matcha</h3><p>Fragrant decaf matcha* meets mango milk and chewy boba in this refreshing layered drink. Bold, tropical.</p><span class="price">74 kr</span></div></div>
+    <div class="product-card"><img src="images/mangosago.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Mango Sago</h3><p>A Hong Kong-style classic. Juicy mango, creamy milk, and chewy sago pearls come together for a refreshing, spoonable drink that's tropical and nostalgic. Caffeine-free.</p><span class="price">74 kr</span></div></div>
+    <div class="product-card"><img src="images/trifecta.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Trifecta</h3><p>A decadent trio of chewy tapioca pearls, sweetened red beans, and grass jelly in creamy milk. Sweet, smooth, and fully caffeine-free.</p><span class="price">74 kr</span></div></div>
+    <div class="product-card"><img src="images/grassjelly.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Grass Jelly Milk</h3><p>Creamy milk with refreshing grass jelly and chewy boba. Subtly sweet and soothing — all flavor, no caffeine.</p><span class="price">69 kr</span></div></div>
+    <div class="product-card"><img src="images/hottaro.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Hot Taro Bubble</h3><p>Taro is back — smoother, creamier, and more natural than ever. Made with real taro for a rich, milky texture and a fuller flavor in every sip.</p><span class="price">64 kr</span></div></div>
+  </div>
+</section>
+
+<section id="cheesetea" class="page">
+  <div class="menu-title">
+    <h2>Cheese Tea</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/mangocheese.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Mango Cheese</h3><p>Mango and green tea slushy, topped with house made sea salted cheese foam. No artificial food colorings. No artificial flavors.</p><span class="price">74 kr</span></div></div>
+    <div class="product-card"><img src="images/strawberrycheese.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Strawberry Cheese</h3><p>Strawberry and green tea slushy, topped with house made sea salted cheese foam. No artificial food colorings. No artificial flavors.</p><span class="price">74 kr</span></div></div>
+    <div class="product-card"><img src="images/matchacheese.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Matcha Cheese</h3><p>Premium japansk matcha-latte toppad med vårt rika, salta ostskum för den perfekta balansen av jordig, krämig smak med ett stänk av havssalt. Ett måste för matchaälskare!</p><span class="price">74 kr</span></div></div>
+    <div class="product-card"><img src="images/oolongcheese.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Oolong Cheese</h3><p>Description Missing</p><span class="price">59 kr</span></div></div>
+    <div class="product-card"><img src="images/greentea.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Green Tea Cheese</h3><p>Jasmine green tea with house made sea salted cheese foam. No artificial food colorings. No artificial flavors.</p><span class="price">59 kr</span></div></div>
+    <div class="product-card"><img src="images/No_Image_Available.jpg" class="product-img" alt="item"><div class="product-info"><h3>Ruby Cheese</h3><p>Black tea with house made sea salted cheese foam. No artificial food colorings. No artificial flavors.</p><span class="price">59 kr</span></div></div>
+  </div>
+</section>
+
+<section id="coffeedrink" class="page">
+  <div class="menu-title">
+    <h2>Coffee Drink</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/latte.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Coconut Latte</h3><p>Espresso meets coconut milk and chewy tapioca pearls in this dairy-free latte. Smooth, lightly sweet, and full of island vibes — the perfect blend of coffee and boba.</p><span class="price">64 kr</span></div></div>
+    <div class="product-card"><img src="images/espresso.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Zang Zang Espresso</h3><p>Double espresso poured over creamy milk and brown sugar boba. Strong, sweet, and satisfyingly chewy — a boba lover's dream with a bold coffee kick.</p><span class="price">64 kr</span></div></div>
+  </div>
+</section>
+
+<section id="dessertlabs" class="page">
+  <div class="menu-title">
+    <h2>Dessert - by The Dessert Labs</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/basque.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Classic Basque Cheesecake Four Inch</h3><p>A rich, crustless Basque-style cheesecake with a beautifully caramelised top and ultra-creamy centre. Lightly sweet, with a hint of vanilla and a gentle toasted flavour, this 4” mini cake is perfect for 1-2 people to share or to enjoy all to yourself.</p><span class="price">79 kr</span></div></div>
+    <div class="product-card"><img src="images/tiramisu.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Tiramisu No Alcohol</h3><p>Description Missing</p><span class="price">69 kr</span></div></div>
+    <div class="product-card"><img src="images/nyccookie.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Dark Chocolate Walnut New York City Cookie</h3><p>A thick, bakery-style cookie insprired by the famous Levain cookies of New York. Crisp on the outside and soft and gooey in the centre, packed with chunks of dark chocolate and toasted walnut halves. <p>Each cookie weighs 110g, baked frash for a rich indulgent texture with a chewy middle and light crisp edge.</p><span class="price">49 kr</span></div></div>
+    <div class="product-card"><img src="images/matchacookie.jpeg" class="product-img" alt="item"><div class="product-info"><h3>White Chocolate Matcha Cookie</h3><p>A thick, bakery-style cookie made with premium matcha powder, filled with chunks of creamy white chocolate.</p><p>Crispy on the outside and soft in the centre, each cookie weighs 60g, offering a rich matcha aroma balanced with the sweetness of white chocolate-</p><span class="price">54 kr</span></div></div>
+  </div>
+</section>
+
+<section id="gyunami" class="page">
+  <div class="menu-title">
+    <h2>Food - by Gyunami</h2>
+  </div>
+
+  <div class="product-list">
+    <div class="product-card"><img src="images/onigiri.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Mayo Tuna</h3><p>Fluffy rice triangle filled with seasoned tuna and creamy Japanese mayo, wrapped in crisp seaweed. Price shown is for one onigiri.</p><span class="price">49 kr</span></div></div>
+    <div class="product-card"><img src="images/onigiri.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Spicy Tuna</h3><p>Fluffy rice triangle filled with tuna mixed in sriracha mayo, wrapped in crisp seaweed. Price shown is for one onigiri.</p><span class="price">49 kr</span></div></div>
+    <div class="product-card"><img src="images/onigiri.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Unagi Kebayaki</h3><p>Fluffy rice triangle filled with grilled eel and glazed with sweet soy sauce, wrapped in crisp seaweed. Price shown is for one onigiri.</p><span class="price">59 kr</span></div></div>
+    <div class="product-card"><img src="images/classic.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Large Classic Gyudon</h3><p>Thinly sliced beef simmered in sweet-savory sauce, served over fluffy white rice. A Japanese comfort classic.</p><span class="price">149 kr</span></div></div>
+    <div class="product-card"><img src="images/ontama.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Large Ontama Gyudon</h3><p>Classic gyudon topped with a soft-boiled egg (ontama) for rich, velvety texture. Served with benishoga and wakame for extra flavor and balance.</p><span class="price">159 kr</span></div></div>
+    <div class="product-card"><img src="images/cheese.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Large Cheese Gyudon</h3><p>Creamy melted cheese over tender beef and rice — rich, indulgent, and satisfying. Comes with benishoga and wakame.</p><span class="price">159 kr</span></div></div>
+    <div class="product-card"><img src="images/onatamacheese.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Large Ontama Cheese Gyudon</h3><p>Soft-boiled egg and melted cheese over our signature gyudon — warm, gooey, and layered with flavor. Served with benishoga and wakame.</p><span class="price">169 kr</span></div></div>
+    <div class="product-card"><img src="images/unadon.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Unadon - Half Unagi</h3><p>Savor the rich, smoky flavor of grilled unagi (eel), served over a bed of fluffy rice and topped with a soft-boiled ontama egg for a velvety, melt-in-your-mouth texture. This half-portion unagi bowl is perfectly balanced with tangy benishoga (pickled ginger), refreshing wakame seaweed, and tender edamame for a burst of color and flavor in every bite.</p><span class="price">159 kr</span></div></div>
+    <div class="product-card"><img src="images/unamidon.jpeg" class="product-img" alt="item"><div class="product-info"><h3>Unamidon - Whole Unagi</h3><p>Indulge in the ultimate unadon experience with a full fillet of perfectly grilled unagi, glazed in a rich tare sauce and laid over warm, fluffy rice. Topped with a soft-boiled ontama egg for creamy depth, and served with tangy benishoga, refreshing wakame, and tender edamame for balance. A luxurious, satisfying bowl made for true eel lovers.</p><span class="price">219 kr</span></div></div>
+  </div>
+</section>
+
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <h3>Oolong Tea House</h3>
+    <p>Serving bubble tea and more.</p>
+  </div>
+</footer>
+
+<script src="oolong.js"></script>
+</body>
+</html>

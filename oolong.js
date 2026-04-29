@@ -6,4 +6,6 @@ function showSection(sectionId) {
   });
 
   document.getElementById(sectionId).classList.add("active");
+
+  window.scrollTo(0, 0);
 }

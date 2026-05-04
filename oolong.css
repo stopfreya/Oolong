@@ -327,6 +327,11 @@ main {
   cursor: pointer;
   text-decoration: none;
   display: block;
+  transition: all 0.3s ease
+}
+.category-card :hover {
+ transition: all 0.3s ease;
+ transform: translatey(-3%);
 }
 
 .category-img {

@@ -382,6 +382,41 @@ main {
   font-weight: bold;
   font-size: 18px;
 }
+/* LOCATIONS_________________________________________________*/
+
+.locations-page {
+  padding-bottom: 80px;
+}
+
+.location-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* bara 2 */
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.location-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.location-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.location-card h3 {
+  margin-bottom: 15px;
+}
+
+.location-card p {
+  line-height: 1.6;
+}
 
 /* MENU ________________________________________________ */
 

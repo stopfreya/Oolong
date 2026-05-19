@@ -223,6 +223,22 @@ main {
   gap: 40px;
 }
 
+.fade-up {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.8s ease;
+}
+
+.js .fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .info-block.reverse {
   flex-direction: row-reverse;
 }

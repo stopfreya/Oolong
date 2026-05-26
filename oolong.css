@@ -1,3 +1,4 @@
+﻿/* hämtar fonts från Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cambo&family=Chango&display=swap');
 
 html {
@@ -18,6 +19,7 @@ body {
   min-height: 100vh;
 }
 
+/* gemensam stil för rubriker */
 h1, h2, h3 {
   font-weight: 1600;
   font-family: "Chango", sans-serif;
@@ -25,6 +27,7 @@ h1, h2, h3 {
   -webkit-text-stroke: 1px white;
 }
 
+/* headern ligger kvar högst upp */
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -58,6 +61,7 @@ nav a {
   color: black;
 }
 
+/* knappar i headern */
 .nav-button {
   display: inline-block; /* viktigt */
   padding: 10px 16px;
@@ -79,6 +83,7 @@ main {
   flex: 1;
 }
 
+/* footer */
 .site-footer {
   background: #efe6da;
   padding: 50px 20px;
@@ -118,6 +123,7 @@ main {
   color: #777;
 }
 
+/* används för sidor som visas/gömmas med JS */
 .page {
   display: none;
 }
@@ -126,6 +132,7 @@ main {
   display: block;
 }
 
+/* startsidan */
 .this {
   display: flex;
   flex-direction: column;
@@ -209,6 +216,7 @@ main {
   margin-bottom: 15px;
 }
 
+/* info-sektioner på startsidan */
 .home-info {
   padding: 80px 40px;
   display: flex;
@@ -223,6 +231,7 @@ main {
   gap: 40px;
 }
 
+/* fade-up animation */
 .fade-up {
   opacity: 1;
   transform: translateY(0);
@@ -266,7 +275,7 @@ main {
 
 
 /* Contact us________________________________________________ */
-
+/* contact-sidan */
 .contact-links {
   display: flex;
   flex-direction: column;
@@ -310,6 +319,7 @@ main {
 
  /* MENU _________________________________________________ */ 
  
+ /* meny */
 .page {
   display: none;
 }
@@ -349,6 +359,8 @@ main {
   display: block;
   transition: all 0.3s ease
 }
+
+/* menybilder åker upp lite vid hover */
 .category-card :hover {
  transition: all 0.3s ease;
  transform: translatey(-3%);
@@ -362,6 +374,7 @@ main {
   display: block;
 }
 
+/* produktkort */
 .product-list {
   display: flex;
   flex-direction: column;
@@ -404,6 +417,7 @@ main {
 }
 /* LOCATIONS_________________________________________________*/
 
+/* locations */
 .locations-page {
   padding-bottom: 80px;
 }
@@ -440,6 +454,7 @@ main {
 
 /* MENU ________________________________________________ */
 
+/* tabell för opening hours */
 .info-table {
   width: 80%;
   margin: 40px auto;

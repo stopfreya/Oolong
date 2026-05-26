@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
+  <!-- grundinställningar för sidan -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--IT WORKSSS-->
   <title>Oolong</title>
+  <!-- kopplar CSS och fonts -->
   <link rel="stylesheet" href="oolong.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +17,7 @@
 
 <body>
 
+  <!-- header med logga och navigation -->
   <header class="top-bar">
     <div class="brand" onclick="showSection('home')">Oolong Tea House</div>
     <nav>
@@ -26,6 +29,7 @@
   </header>
 
   <main>
+    <!-- startsidan -->
     <section id="home" class="page active this">
       <section class="this-text">
         <h1>Oolong</h1>
@@ -34,10 +38,12 @@
         <button class="main-button" href="menu.html">See Menu</button>
       </section>
 
+  <!-- stor bild på startsidan -->
  <section class="this-image-box">
   <img src="images/67332dc3308c8149ae834467 (1).avif" srcset="images/67332dc3308c8149ae834467 (1).avif 1x, images/67332dc3308c8149ae834467 (1).avif 2x" alt="picture" loading="lazy">
 </section>
 
+    <!-- info-sektioner med scroll-animation -->
     <section id="home-info" class="home-info">
 
   <div class="info-block fade-up">
@@ -71,15 +77,9 @@
 </section>
     </section>
 
-<!-- Contact us________________________________________________-->
-
-
-<!-- MENU_____________________________________________________ -->
-
-
-<!-- MENU_____________________________________________________ -->
 <!-- OPENING HOURS_____________________________________________________ -->
 
+<!-- opening hours tabell -->
 <section id="hours" class="page">
 
   <div class="menu-title">
@@ -127,9 +127,10 @@
 </section>
 <!-- ____________________________________________________________---->
  
-
+<!-- javascript-fil -->
 <script src="oolong.js"></script>
 
+<!-- gemensam footer -->
 <footer class="site-footer">
 
   <div class="footer-content">

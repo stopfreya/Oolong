@@ -34,9 +34,12 @@ h1, h2, h3 {
   align-items: center;
   padding: 20px 40px;
   background-color: #f08989;
-  position: sticky;
+  position: fixed; /* fixerar headern överst på sidan */
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 
 }
 
@@ -81,6 +84,7 @@ nav a {
 
 main {
   flex: 1;
+  padding-top: 100px; /* ger plats under den fasta headern */
 }
 
 /* footer */

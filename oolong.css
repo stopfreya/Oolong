@@ -1,6 +1,10 @@
 ﻿/* hämtar fonts från Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Cambo&family=Chango&display=swap');
 
+*, *::before, *::after {
+  box-sizing: border-box; /* gör bredd och padding lättare att hantera */
+}
+
 html {
   height: 100%;
 }
@@ -30,6 +34,7 @@ h1, h2, h3 {
 /* headern ligger kvar högst upp */
 .top-bar {
   display: flex;
+  flex-wrap: wrap; /* tillåter knappar och logga att brytas vid smalare vyer */
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
@@ -40,7 +45,13 @@ h1, h2, h3 {
   width: 100%;
   z-index: 1000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
 
+nav {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 12px;
 }
 
 .brand {
@@ -59,7 +70,7 @@ h1, h2, h3 {
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 0; 
   text-decoration: none;
   color: black;
 }
